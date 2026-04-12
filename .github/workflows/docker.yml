@@ -32,5 +32,5 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_KEY }}
           script: |
-            cd cloud-project
+            cd cloud-devops-app
             ./deploy.sh
